@@ -1,3 +1,54 @@
-#days{
-    font-size: 50px;
+body, html {
+    height: 100%;
+    display: grid;
+    background: url('../assets/bg-img.png') center center;
+    background-repeat:no-repeat;
+}
+@media (max-width: 767.98px) { 
+    body, html {
+        background: url('../assets/bg-img.png') right center;
+        background-repeat:no-repeat;
+    }
+ }
+.centro {
+    margin: auto;
+}
+.numeros{
+    font-size: clamp(0.5rem, 12vw, 8rem);
+    font-weight: 500;
+    color: #ff7943;
+    box-shadow: 1px 9px 23px -6px rgba(0,0,0,0.51);
+    -webkit-box-shadow: 1px 9px 23px -6px rgba(0,0,0,0.51);
+    -moz-box-shadow: 1px 9px 23px -6px rgba(0,0,0,0.51);
+}
+.title{
+    font-size: clamp(0.4rem, 1.9vw, 1.4rem);
+    color: #fff;
+}
+.pontos{
+    margin-top: -25px;
+    font-size: clamp(1.3rem, 2vw, 5rem);
+    color: #ff7943;
+}
+footer {
+    bottom: 0;
+    left: 0;
+    padding: 10px 0;
+    position: fixed;
+    right: 0;
+    text-align: center;
+}
+.link-none{
+    color: rgb(214, 214, 214);
+    text-decoration: none;
+}
+.p-houver:hover{
+    color: rgb(255, 255, 255);
+}
+#year{
+    font-size: clamp(1.3rem, 1.5vw, 5rem);
+    font-weight: 500;
+    color: rgb(231, 231, 231);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }

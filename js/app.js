@@ -7,7 +7,7 @@ const nextYearContainer = document.querySelector('#year')
 const nextYear = new Date().getFullYear() + 1
 const newYearTime = new Date(`January 01 ${nextYear} 00:00:00`)
 
-nextYearContainer.textContent = nextYear
+nextYearContainer.textContent = 'PARA O ANO DE ' + nextYear + '!'
 
 const updateCountdown = () => {
     const currentTime = new Date()
